@@ -33,7 +33,7 @@
         }
         img {
             margin: 10px;
-            width: 150px; /* 이미지 가로 크기를 300px로 설정 */
+            width: 150px; /* 이미지 가로 크기 설정 */
             height: auto; /* 높이는 자동으로 조정 */
         }
         .store-buttons {
@@ -42,20 +42,10 @@
         .store-buttons a {
             display: inline-block;
             margin: 10px;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .store-buttons a:hover {
-            background-color: #0056b3;
         }
         .store-buttons a img {
-            vertical-align: middle;
-            width: 20px;
-            margin-right: 10px;
+            width: auto;
+            height: 50px; /* 아이콘 세로 크기를 동일하게 설정 */
         }
     </style>
 </head>
@@ -72,14 +62,14 @@
         <img src="/image2.png" alt="">
 
         <div class="store-buttons">
-            <!-- 플레이스토어 버튼 -->
+            <!-- 플레이스토어 아이콘 -->
             <a href="https://play.google.com/store/apps/details?id=your_app_id" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store"> Google Play Store
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store">
             </a>
 
-            <!-- 앱스토어 버튼 -->
+            <!-- 앱스토어 아이콘 -->
             <a href="https://apps.apple.com/app/your-app-id" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store"> Apple App Store
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store">
             </a>
         </div>
     </main>

@@ -36,6 +36,27 @@
             width: 150px; /* 이미지 가로 크기를 300px로 설정 */
             height: auto; /* 높이는 자동으로 조정 */
         }
+        .store-buttons {
+            margin-top: 20px;
+        }
+        .store-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .store-buttons a:hover {
+            background-color: #0056b3;
+        }
+        .store-buttons a img {
+            vertical-align: middle;
+            width: 20px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -49,6 +70,18 @@
         <!-- 루트 경로의 이미지 2개 불러오기 -->
         <img src="/image1.png" alt="">
         <img src="/image2.png" alt="">
+
+        <div class="store-buttons">
+            <!-- 플레이스토어 버튼 -->
+            <a href="https://play.google.com/store/apps/details?id=your_app_id" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store"> Google Play Store
+            </a>
+
+            <!-- 앱스토어 버튼 -->
+            <a href="https://apps.apple.com/app/your-app-id" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store"> Apple App Store
+            </a>
+        </div>
     </main>
 
     <footer>
